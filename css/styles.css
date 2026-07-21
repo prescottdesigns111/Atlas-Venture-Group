@@ -470,7 +470,7 @@ footer.site-footer ul li a:hover { color: var(--mint); }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 900px) {
   nav.main-nav {
     position: absolute;
     top: 78px;
@@ -485,6 +485,9 @@ footer.site-footer ul li a:hover { color: var(--mint); }
   nav.main-nav a { border-radius: 10px; }
   .nav-toggle { display: block; }
   .header-inner .btn-primary { display: none; }
+}
+
+@media (max-width: 720px) {
   .hero h1 { font-size: 2.2rem; }
   .feature-grid, .card-grid, .testimonial-grid, .value-grid, .team-grid, .perk-grid, .stats-grid, .partner-grid { grid-template-columns: 1fr; }
   form.contact-form .row2 { grid-template-columns: 1fr; }
