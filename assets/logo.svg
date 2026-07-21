@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="92" fill="#9FE1CB" opacity="0.35"/>
+
+  <!-- main 8-point compass star -->
+  <g>
+    <!-- vertical spike -->
+    <polygon points="100,8 108,95 100,88 92,95" fill="#0D3349"/>
+    <polygon points="100,192 108,105 100,112 92,105" fill="#0D3349"/>
+    <!-- horizontal spike -->
+    <polygon points="8,100 95,92 88,100 95,108" fill="#0D3349"/>
+    <polygon points="192,100 105,92 112,100 105,108" fill="#0D3349"/>
+    <!-- diagonal spikes (green) -->
+    <polygon points="30,30 95,92 88,95 92,88" fill="#1D9E75"/>
+    <polygon points="170,170 105,108 112,105 108,112" fill="#1D9E75"/>
+    <polygon points="30,170 92,108 95,112 88,105" fill="#1D9E75"/>
+    <polygon points="170,30 108,92 105,88 112,95" fill="#1D9E75"/>
+    <circle cx="100" cy="100" r="5" fill="#0D3349"/>
+  </g>
+
+  <!-- long diagonal arrow through the star, bottom-left to top-right -->
+  <g>
+    <polygon points="34,166 158,42 152,32 28,156" fill="#1D9E75"/>
+    <polygon points="34,166 158,42 152,32 28,156" fill="url(#arrowGrad)" opacity="0.5"/>
+    <polygon points="146,26 188,14 176,56 166,46 150,62 134,46" fill="#1D9E75"/>
+  </g>
+
+  <defs>
+    <linearGradient id="arrowGrad" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0D3349"/>
+      <stop offset="1" stop-color="#9FE1CB"/>
+    </linearGradient>
+  </defs>
+</svg>
