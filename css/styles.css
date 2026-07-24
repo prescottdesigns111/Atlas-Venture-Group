@@ -313,11 +313,20 @@ nav.main-nav a.active {
 .partner-logo {
   background: var(--white);
   border-radius: 14px;
-  padding: 24px 12px;
+  padding: 20px 16px;
   text-align: center;
   font-weight: 700;
   color: #7d92a0;
-  border: 1px dashed #cfd8c8;
+  border: 1px solid #e3e6d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+}
+.partner-logo img {
+  max-width: 100%;
+  max-height: 56px;
+  object-fit: contain;
 }
 
 /* Team / values / jobs */
@@ -436,7 +445,7 @@ footer.site-footer {
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   gap: 32px;
   margin-bottom: 48px;
 }
@@ -484,7 +493,8 @@ footer.site-footer ul li a:hover { color: var(--mint); }
   nav.main-nav.open { display: flex; }
   nav.main-nav a { border-radius: 10px; }
   .nav-toggle { display: block; }
-  .header-inner .btn-primary { display: none; }
+  .header-inner .btn-outline { display: none; }
+  .header-inner .btn-primary { padding: 12px 18px; font-size: 0.85rem; }
 }
 
 @media (max-width: 720px) {
