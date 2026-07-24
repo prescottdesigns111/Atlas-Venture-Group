@@ -23,7 +23,10 @@
       <a href="why-us.html">Why Us</a>
       <a href="careers.html">Careers</a>
     </nav>
-    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+    <div style="display:flex; gap:10px; align-items:center;">
+      <a href="careers.html#apply" class="btn btn-primary">Apply Now</a>
+      <a href="contact.html" class="btn btn-outline" style="border-width:1.5px;">Contact Us</a>
+    </div>
   </div>
 </header>
 
@@ -41,12 +44,12 @@
   <div class="container two-col">
     <div>
       <span class="eyebrow">Our Story</span>
-      <h2 style="font-size:2rem; margin:16px 0;">From one campaign to a national network</h2>
-      <p style="color:#567180; margin-bottom:16px;">Atlas Venture Group started in 2014 when our founder, a former nonprofit development director, grew frustrated watching great causes struggle with fundraising tools built for corporations, not charities.</p>
-      <p style="color:#567180; margin-bottom:16px;">What began as a two-person consultancy helping a single food bank hit its year-end goal has grown into a team of over 60 fundraising strategists, campaign managers, and donor-relations specialists serving more than 320 charity partners across the country.</p>
-      <p style="color:#567180;">Today, we combine hands-on campaign expertise with modern giving technology — but our approach hasn't changed: understand the cause, build the plan, show up as a true partner.</p>
+      <h2 style="font-size:2rem; margin:16px 0;">This industry has had a major impact on my life</h2>
+      <p style="color:#567180; margin-bottom:16px;">Since starting in 2021, I've had the opportunity to meet and work with people from many different backgrounds, provide employment opportunities, and help team members build confidence, communication skills, leadership experience, and long-term career potential.</p>
+      <p style="color:#567180; margin-bottom:16px;">I'm also proud to have worked alongside many respected charitable organizations and to have helped generate millions of dollars in donations for important causes. Over the past five years, our campaigns have supported children, families, people living with health challenges, animals, communities, and environmental initiatives.</p>
+      <p style="color:#567180;">What makes this work meaningful to me is the impact on both sides: helping charities grow their support while also helping the people on our team grow personally and professionally. I'm proud of what we've built and excited to continue creating opportunities and making a positive difference.</p>
     </div>
-    <div class="placeholder-img">[ photo: founding team, 2014 ]</div>
+    <img src="images/our story section image.jpg" alt="Atlas Venture Group team members in the field" style="border-radius:20px; width:100%; aspect-ratio:4/3; object-fit:cover;">
   </div>
 </section>
 
@@ -87,26 +90,21 @@
       <span class="eyebrow">Leadership Team</span>
       <h2>Meet the people behind Atlas</h2>
     </div>
-    <div class="team-grid">
+    <div class="team-grid" style="grid-template-columns:repeat(3, 1fr); max-width:820px; margin:0 auto;">
       <div class="team-card">
-        <div class="team-photo"></div>
-        <div class="author-name">Elena Marsh</div>
-        <div class="author-role">Founder &amp; CEO</div>
+        <img class="team-photo" src="images/mike habbous.png" alt="Mike Habbous, Manager" style="width:100%; object-fit:cover;">
+        <div class="author-name">Mike Habbous</div>
+        <div class="author-role">Manager</div>
       </div>
       <div class="team-card">
-        <div class="team-photo"></div>
-        <div class="author-name">James Whitfield</div>
-        <div class="author-role">Chief Strategy Officer</div>
+        <img class="team-photo" src="images/ezekiel shallow.png" alt="Ezekiel Shallow, Assistant Manager" style="width:100%; object-fit:cover;">
+        <div class="author-name">Ezekiel Shallow</div>
+        <div class="author-role">Assistant Manager</div>
       </div>
       <div class="team-card">
-        <div class="team-photo"></div>
-        <div class="author-name">Priya Nandan</div>
-        <div class="author-role">VP, Partner Success</div>
-      </div>
-      <div class="team-card">
-        <div class="team-photo"></div>
-        <div class="author-name">Tomás Herrera</div>
-        <div class="author-role">VP, Campaign Operations</div>
+        <img class="team-photo" src="images/preet kaur.png" alt="Preet Kaur, Assistant Manager" style="width:100%; object-fit:cover;">
+        <div class="author-name">Preet Kaur</div>
+        <div class="author-role">Assistant Manager</div>
       </div>
     </div>
   </div>
@@ -116,26 +114,27 @@
   <div class="container">
     <div class="section-header">
       <span class="eyebrow" style="background:var(--green); color:var(--white);">By the Numbers</span>
-      <h2>A decade of impact</h2>
+      <h2>Impact since 2021</h2>
     </div>
     <div class="stats-grid">
       <div>
-        <div class="stat-num" data-count="184" data-suffix="M+">0</div>
-        <div class="stat-label">Raised since 2014</div>
+        <div class="stat-num" data-count="10" data-suffix="M+">0</div>
+        <div class="stat-label">Raised since 2021</div>
       </div>
       <div>
-        <div class="stat-num" data-count="60" data-suffix="+">0</div>
-        <div class="stat-label">Team members</div>
-      </div>
-      <div>
-        <div class="stat-num" data-count="320" data-suffix="+">0</div>
+        <div class="stat-num" data-count="20" data-suffix="+">0</div>
         <div class="stat-label">Charity partners</div>
       </div>
       <div>
-        <div class="stat-num" data-count="41" data-suffix="">0</div>
-        <div class="stat-label">States served</div>
+        <div class="stat-num" data-count="30" data-suffix="K+">0</div>
+        <div class="stat-label">Monthly donors acquired</div>
+      </div>
+      <div>
+        <div class="stat-num" data-count="91" data-suffix="%">0</div>
+        <div class="stat-label">Donor retention rate</div>
       </div>
     </div>
+    <p style="text-align:center; color:#cfe3ea; margin-top:32px; max-width:640px; margin-left:auto; margin-right:auto;">We've also helped develop the careers of hundreds of fundraisers, including students and individuals looking to build professional sales, communication, and leadership skills.</p>
   </div>
 </section>
 
@@ -174,16 +173,26 @@
         <h5>Services</h5>
         <ul>
           <li><a href="services.html">Fundraising Services</a></li>
-          <li><a href="services.html">Campaign Strategy</a></li>
-          <li><a href="services.html">Donor Programs</a></li>
+          <li><a href="services.html">Door-to-Door Campaigns</a></li>
+          <li><a href="services.html">Campaign Management</a></li>
         </ul>
       </div>
       <div>
-        <h5>Contact</h5>
+        <h5>Location</h5>
+        <ul>
+          <li>102 Albro Lake Rd<br>Dartmouth</li>
+        </ul>
+        <h5 style="margin-top:24px;">Hours</h5>
+        <ul>
+          <li>Mon &ndash; Fri<br>12:00PM &ndash; 8:30PM</li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact Us</h5>
         <ul>
           <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="mailto:hello@atlasventuregroup.org">hello@atlasventuregroup.org</a></li>
-          <li><a href="tel:+18885551234">(888) 555-1234</a></li>
+          <li><a href="mailto:hr@mhmdirect.ca">hr@mhmdirect.ca</a></li>
+          <li><a href="tel:+18193198103">1 (819) 319-8103</a></li>
         </ul>
       </div>
     </div>
